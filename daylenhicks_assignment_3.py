@@ -14,24 +14,25 @@ print(f"Major: {major}\n")
 
 print("=== ACADEMIC PROFILE ===")
 
-current_courses = ["COMP 163", "MATH 150", "ENG 101", "HIS 105"] #list
-credit_hours = [3, 3, 3, 3]
-gpa_history = [3.2, 3.6, 3.4, 3.7]
-weekly_study_hours = 25
+current_courses = ["COMP 163", "MATH 131", "SPCH 250", "HIST 106", "GEEN 111", "COMP 390"] #list  
+credit_hours = [3, 4, 3, 3, 1, 3]
+gpa_history = ["I don't have a GPA yet"] # GPA not calculated
+weekly_study_hours = 20
 study_hours_per_subject = {
-    "Programming": 10,
-    "Math": 8,
-    "English": 4,
-    "History": 3
+    "Programming": 12,
+    "Math": 5,
+    "Speech": 1,
+    "History": 2
     }
-study_hour_value = 5.0
+study_hour_value = 15.0
 total_credits = sum(credit_hours)
-cumulative_gpa = sum(gpa_history) / len(gpa_history)
+cumulative_gpa = gpa_history
 
 print(f"Current Semester: {total_credits} credits across {len(current_courses)} courses")
-print(f"Cumulative GPA: {cumulative_gpa:.2f}")
+print(f"Cumulative GPA: {cumulative_gpa:}")
 print(f"Weekly Study Time: {weekly_study_hours} hours")
 print(f"Academic Investment: ${study_hour_value} per study hour\n")
+
 
 course_credits = {"COMP 163": 3, "MATH 150": 3, "ENG 101": 3, "HIS 105": 3}
 professors = {"COMP 163": "Prof. Rhodes", "MATH 150": "Dr. Lee", "ENG 101": "Dr. Martinez", "HIS 105": "Dr. Brown"}
@@ -94,4 +95,5 @@ print(f"Total Courses Completed: {total_courses_completed}")
 print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {len(entertainment)} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
+
 
