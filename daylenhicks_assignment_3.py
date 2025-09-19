@@ -33,7 +33,6 @@ print(f"Cumulative GPA: {cumulative_gpa:}")
 print(f"Weekly Study Time: {weekly_study_hours} hours")
 print(f"Academic Investment: ${study_hour_value} per study hour\n")
 
-
 course_credits = {"COMP 163": 3, "MATH 131": 4, "SPCH 250": 3, "HIS 106": 3, "GEEN 111": 1, "COMP 390": 3} #dictionary
 professors = {"COMP 163": "Prof. Rhodes", "MATH 131": "Dr. Varathajah", "SPCH 250": "Prof. Vogleson", "HIS 106": "Prof. Devoe", "GEEN 111": "Dr. Parish", "COMP 390": "Prof. Pioro"}
 rooms = {"COMP 163": "M-Eric 300", "MATH 131": "Marteena 233", "SPCH 250": "Online", "HIS 106": "Online", "GEEN 111": "McNair ", "COMP 390": "McNair 240"}
@@ -58,8 +57,7 @@ print(f"Career Interests: {career_iterest}")
 print(f"Skills Currently Have: {len(current_skills)}")
 print(f"Skills Want to Learn: {len(skills_to_learn)}\n")
 
-
-monthly_budget = {"Food": 450, "Entertainment": 200, "Books": 125, "Transportation": 100 } #Dictionary
+monthly_budget = {"Food": 150, "Entertainment": 50, "Books": 25, "Transportation": 150 } #Dictionary
 daily_food_budget = round(monthly_budget["Food"] / 30, 2)
 annual_budget = (
     monthly_budget["Food"] +
@@ -77,12 +75,12 @@ print(f"Books: ${monthly_budget['Books']}")
 print(f"Transportation: ${monthly_budget['Transportation']}")
 print(f"Annual Projection: ${annual_budget}\n")
 
-emergency_contact = ("Mom", "Hannah Smith", "704-555-0199") #tuple
-home_address = ("456 Oak Street", "Charlotte", "NC", "28202")
-instagram_info = ("Instagram", "@jordan_codes", 312)
-twitter_info = ("Twitter", "@jordandev", 127)
+emergency_contact = ("Mom", "Shalonda Hicks", "252-555-7777") #tuple
+home_address = ("263 Windsor Lake Dr", "Henrico", "NC", "23236")
+instagram_info = ("Instagram", "@kha1r3", 536)
+twitter_info = ("Twitter", "@dtootrill", 120)
 total_social_followers = instagram_info[2] + twitter_info[2]
-contact_directory = {"Mom": "704-555-0199", "Roommate": "336-555-7821", "Academic Advisor": "336-334-5000"}
+contact_directory = {"Mom": "252-555-7777", "Roommate": "336-252-8963", "Academic Advisor": "336-334-6399"}
 
 print("=== CONNECTIONS & CONTACTS ===")
 print(f"Emergency Contact: {emergency_contact[1]} ({emergency_contact[0]}) - {emergency_contact[2]}")
@@ -90,7 +88,7 @@ print(f"Home Address: {home_address[0]}, {home_address[1]}, {home_address[2]} {h
 print(f"Social Media Presence: {total_social_followers} followers across 2 platforms")
 print(f"Key Contacts: {len(contact_directory)} people in directory\n")
 
-total_courses_completed = 5
+total_courses_completed = 22
 academic_load = total_credits + weekly_study_hours
 
 print("=== LIFE STATISTICS ===")
@@ -98,6 +96,8 @@ print(f"Total Courses Completed: {total_courses_completed}")
 print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {len(entertainment)} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
+
+
 
 
 
