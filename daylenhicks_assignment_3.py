@@ -45,11 +45,11 @@ print(f"{current_courses[3]} - {credit_hours[3]} credits - {professors['HIS 106'
 print(f"{current_courses[4]} - {credit_hours[4]} credits - {professors['GEEN 111']} - {rooms['GEEN 111']}")
 print(f"{current_courses[5]} - {credit_hours[5]} credits - {professors['COMP 390']} - {rooms['COMP 390']}\n")
 
-current_skills = {"Python basics", "HTML", "Problem solving", "Time management","Photography"} #set
-skills_to_learn = {"JavaScript", "Data structures", "Git", "Web design", "Public speaking"}
-career_interest = {"Software development", "Web development", "Data science", "Game development"}
-hobbies = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
-entertainment = {"One Piece", "Barry", "Life", "Incantation", "Memento"}
+current_skills = {"Python basics", "Leadership", "Problem solving", "Time management", "Adaptability"} #set
+skills_to_learn = {"JavaScript", "Data structures", "Git", "HTML", "C++"}
+career_interest = {"Software development", "Project Management", "Cybersecurity"}
+hobbies = {"Gaming", "Basketball", "Family time", "Running", "Music"}
+entertainment = {"Stranger Things", "American Dad", "Family Guy", "Breaking Bad", "Surfs up"}
 
 print("=== PERSONAL DEVELOPMENT ===")
 print(f"Current Skills: {current_skills}")
@@ -57,6 +57,7 @@ print(f"Learning Goals: {skills_to_learn}")
 print(f"Career Interests: {career_iterest}")
 print(f"Skills Currently Have: {len(current_skills)}")
 print(f"Skills Want to Learn: {len(skills_to_learn)}\n")
+
 
 monthly_budget = {"Food": 450, "Entertainment": 200, "Books": 125, "Transportation": 100 } #Dictionary
 daily_food_budget = round(monthly_budget["Food"] / 30, 2)
@@ -97,6 +98,7 @@ print(f"Total Courses Completed: {total_courses_completed}")
 print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {len(entertainment)} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
+
 
 
 
