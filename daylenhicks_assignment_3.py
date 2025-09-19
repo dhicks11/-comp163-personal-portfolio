@@ -34,18 +34,20 @@ print(f"Weekly Study Time: {weekly_study_hours} hours")
 print(f"Academic Investment: ${study_hour_value} per study hour\n")
 
 
-course_credits = {"COMP 163": 3, "MATH 150": 3, "ENG 101": 3, "HIS 105": 3}
-professors = {"COMP 163": "Prof. Rhodes", "MATH 150": "Dr. Lee", "ENG 101": "Dr. Martinez", "HIS 105": "Dr. Brown"}
-rooms = {"COMP 163": "M-Eric 300", "MATH 150": "Marteena 201", "ENG 101": "Crosby 121", "HIS 105": "Crosby 210"}
+course_credits = {"COMP 163": 3, "MATH 131": 4, "SPCH 250": 3, "HIS 106": 3, "GEEN 111": 1, "COMP 390": 3} #dictionary
+professors = {"COMP 163": "Prof. Rhodes", "MATH 131": "Dr. Varathajah", "SPCH 250": "Prof. Vogleson", "HIS 106": "Prof. Devoe", "GEEN 111": "Dr. Parish", "COMP 390": "Prof. Pioro"}
+rooms = {"COMP 163": "M-Eric 300", "MATH 131": "Marteena 233", "SPCH 250": "Online", "HIS 106": "Online", "GEEN 111": "McNair ", "COMP 390": "McNair 240"}
 print("Current Courses:")
 print(f"{current_courses[0]} - {credit_hours[0]} credits - {professors['COMP 163']} - {rooms['COMP 163']}")
-print(f"{current_courses[1]} - {credit_hours[1]} credits - {professors['MATH 150']} - {rooms['MATH 150']}")
-print(f"{current_courses[2]} - {credit_hours[2]} credits - {professors['ENG 101']} - {rooms['ENG 101']}")
-print(f"{current_courses[3]} - {credit_hours[3]} credits - {professors['HIS 105']} - {rooms['HIS 105']}\n")
+print(f"{current_courses[1]} - {credit_hours[1]} credits - {professors['MATH 131']} - {rooms['MATH 131']}")
+print(f"{current_courses[2]} - {credit_hours[2]} credits - {professors['SPCH 250']} - {rooms['SPCH 250']}")
+print(f"{current_courses[3]} - {credit_hours[3]} credits - {professors['HIS 106']} - {rooms['HIS 106']}")
+print(f"{current_courses[4]} - {credit_hours[4]} credits - {professors['GEEN 111']} - {rooms['GEEN 111']}")
+print(f"{current_courses[5]} - {credit_hours[5]} credits - {professors['COMP 390']} - {rooms['COMP 390']}\n")
 
 current_skills = {"Python basics", "HTML", "Problem solving", "Time management","Photography"} #set
 skills_to_learn = {"JavaScript", "Data structures", "Git", "Web design", "Public speaking"}
-career_iterest = {"Software development", "Web development", "Data science", "Game development"}
+career_interest = {"Software development", "Web development", "Data science", "Game development"}
 hobbies = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
 entertainment = {"One Piece", "Barry", "Life", "Incantation", "Memento"}
 
@@ -95,5 +97,6 @@ print(f"Total Courses Completed: {total_courses_completed}")
 print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {len(entertainment)} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
+
 
 
