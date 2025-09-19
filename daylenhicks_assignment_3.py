@@ -2,12 +2,11 @@ print("="*64) #used Chatgpt to help with concatenation
 print("              PERSONAL ACADEMIC & LIFE PORTFOLIO")
 print("="*64)
 
-full_name = "Jordan Smith" #string
-email = "jsmith@ncat.edu"
-hometown = "Charlotte, NC"
-graduation_semester = "Spring 2028"
+full_name = "Daylen Hicks" #string
+email = "dhicks4@ncat.edu"
+hometown = "Henrico, NC"
+graduation_semester = "Spring 2027"
 major = "Computer Science"
-
 
 print(f"Student: {full_name} | Email: {email}")
 print(f"From: {hometown} | Graduating: {graduation_semester}")
@@ -95,3 +94,4 @@ print(f"Total Courses Completed: {total_courses_completed}")
 print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {len(entertainment)} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
+
