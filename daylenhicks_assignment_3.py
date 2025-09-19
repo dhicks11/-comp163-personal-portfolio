@@ -14,17 +14,17 @@ print(f"Major: {major}\n")
 
 print("=== ACADEMIC PROFILE ===")
 
-current_courses = ["COMP 163", "MATH 150", "ENG 101", "HIS 105"] #list
-credit_hours = [3, 3, 3, 3]
-gpa_history = [3.2, 3.6, 3.4, 3.7]
-weekly_study_hours = 25
+current_courses = ["COMP 163", "MATH 131", "SPCH 250", "HIST 106", "GEEN 111", "COMP 390"] #list  
+credit_hours = [3, 4, 3, 3, 1, 3]
+gpa_history = ["I don't have a GPA yet"] #My GPA isn't calculated yet
+weekly_study_hours = 20
 study_hours_per_subject = {
-    "Programming": 10,
-    "Math": 8,
-    "English": 4,
-    "History": 3
+    "Programming": 12,
+    "Math": 5,
+    "Speech": 1,
+    "History": 2
     }
-study_hour_value = 5.0
+study_hour_value = 15.0
 total_credits = sum(credit_hours)
 cumulative_gpa = sum(gpa_history) / len(gpa_history)
 
@@ -94,4 +94,5 @@ print(f"Total Courses Completed: {total_courses_completed}")
 print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {len(entertainment)} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
+
 
