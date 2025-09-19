@@ -1,4 +1,4 @@
-print("="*64) #used Chatgpt to help with concatenation
+print("="*64) #used Chatgpt to help with concatenation  
 print("              PERSONAL ACADEMIC & LIFE PORTFOLIO")
 print("="*64)
 
@@ -97,3 +97,4 @@ print(f"Total Courses Completed: {total_courses_completed}")
 print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {len(entertainment)} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
+
